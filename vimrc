@@ -1,3 +1,7 @@
+" set up Pathogen. This should be done first.
+execute pathogen#infect()
+call pathogen#helptags()
+
 " UI
 "set guifont="Inconsolata for Powerline":h24
 colorscheme darkblue
@@ -8,10 +12,6 @@ au! Syntax json source /Users/kevin/.vim/ftplugin/json.vim
 
 au BufRead,BufNewFile todo.txt set filetype=todo
 au! Syntax todo source /Users/kevin/.vim/todo.vim
-
-" pathogen
-execute pathogen#infect()
-call pathogen#helptags()
 
 syntax on
 filetype plugin indent on
