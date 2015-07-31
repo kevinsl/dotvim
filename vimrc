@@ -5,7 +5,7 @@ call pathogen#helptags()
 " UI
 colorscheme darkblue
 if has("mac") || has("macunix")
-    set gfn=Source\ Code\ Pro\ for\ Powerline:h18
+    set gfn=Sauce\ Code\ Powerline\ Light:h18
 endif
 
 
