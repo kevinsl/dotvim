@@ -3,8 +3,10 @@ execute pathogen#infect()
 call pathogen#helptags()
 
 " UI
-"set guifont="Inconsolata for Powerline":h24
 colorscheme darkblue
+if has("mac") || has("macunix")
+    set gfn=Source\ Code\ Pro\ for\ Powerline:h18
+endif
 
 
 au BufRead,BufNewFile *.json set filetype=json
