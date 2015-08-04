@@ -34,6 +34,9 @@ let g:airline#extensions#tabline#enabled = 1
 "let g:airline#extensions#tabline#left_sep = ' '
 "let g:airline#extensions#tabline#left_alt_sep = '|'
 
+" vim-notes
+let g:notes_directories = ['~/Google Drive/Notepad']
+
 " Misc
 set ts=8 sw=4 softtabstop=4
 set hlsearch
